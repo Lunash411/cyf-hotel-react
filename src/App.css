@@ -18,6 +18,15 @@
   font-weight: bold;
 }
 
+.header {
+  display: flex;
+  background-color: #5b5757;
+}
+
+.header img {
+  height: 100px;
+}
+
 .App-title {
   font-size: 1.5em;
 }
@@ -25,6 +34,9 @@
 .App-content {
   padding-top: 20px;
   font-size: large;
+}
+.highlight {
+  background-color: aquamarine;
 }
 
 @keyframes App-logo-spin {
